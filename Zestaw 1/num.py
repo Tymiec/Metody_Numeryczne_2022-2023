@@ -5,3 +5,5 @@ df = pd.read_csv('https://kacpertopol.github.io/start/pl/010_Nauczanie/008_Metod
 
 fig = px.line(df)
 fig.show()
+
+git config --global user.name "tymek.bialkowski"
