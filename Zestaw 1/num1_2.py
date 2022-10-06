@@ -1,8 +1,8 @@
 import plotly.express as px
 import pandas as pd
 
-df = pd.read_csv(r'C:\Repo\NUM\Zestaw 1\btc.csv')
-df2 = pd.read_csv(r'C:\Repo\NUM\Zestaw 1\eth.csv')
+df = pd.read_csv(r'C:\Repo\Metody_Numeryczne_2022-2023\Zestaw 1\btc.csv')
+df2 = pd.read_csv(r'C:\Repo\Metody_Numeryczne_2022-2023\Zestaw 1\eth.csv')
 
 df["crypto"] = "BTC"
 df2["crypto"] = "ETH"
